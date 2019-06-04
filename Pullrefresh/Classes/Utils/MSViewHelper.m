@@ -12,4 +12,12 @@
     NSString *result = [NSString stringWithFormat:@"%@%@",str1,str2];
     return result;
 }
+    
+/**
+say hello
+*/
+-(void) hello{
+    NSLog(@"Hello----");
+}
+    
 @end

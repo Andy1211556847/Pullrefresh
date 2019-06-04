@@ -1,3 +1,12 @@
+#命令行操作
+#首先检测文件格式的有效性：
+#pod spec lint
+
+#推送
+#pod trunk push ZGRSAEncryptor.podspec —allow-warnings
+
+
+
 #
 #  Be sure to run `pod spec lint MSPullrefresh.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -16,8 +25,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MSPullrefresh"
-  spec.version      = "1.0.0"
-  spec.summary      = "通用下拉刷新控件"
+  spec.version      = "1.0.2"
+  spec.summary      = "通用下拉刷新控件."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -103,7 +112,9 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Pullrefresh/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = 
+  "Pullrefresh/Pullrefresh.h",
+  "Pullrefresh/Classes/Utils/MSViewHelper.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

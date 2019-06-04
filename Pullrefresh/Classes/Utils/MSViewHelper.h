@@ -14,6 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(NSString*) cocatString:(NSString*)str1 andStr:(NSString*)str2;
 
+/**
+ say hello
+ */
+-(void) hello;
+
 @end
 
 NS_ASSUME_NONNULL_END
