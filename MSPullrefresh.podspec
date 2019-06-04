@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Pullrefresh"
-  spec.version      = "0.0.1"
+  spec.name         = "MSPullrefresh"
+  spec.version      = "1.0.0"
   spec.summary      = "通用下拉刷新控件"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Andy1211556847/MSPullrefresh.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Andy1211556847/Pullrefresh.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   
-  
+
   # *匹配所有文件
   # c*匹配以名字C开头的文件
   # *c匹配以名字c结尾的文件
